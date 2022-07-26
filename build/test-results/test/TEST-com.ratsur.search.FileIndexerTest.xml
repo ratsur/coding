@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ratsur.search.FileIndexerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-06-07T04:52:11" hostname="HPGAMING" time="0.39">
+  <properties/>
+  <testcase name="notFoundInSearch()" classname="com.ratsur.search.FileIndexerTest" time="0.213"/>
+  <testcase name="indexDir()" classname="com.ratsur.search.FileIndexerTest" time="0.04"/>
+  <testcase name="searchAllFiles100Percent()" classname="com.ratsur.search.FileIndexerTest" time="0.039"/>
+  <testcase name="searchDir()" classname="com.ratsur.search.FileIndexerTest" time="0.053"/>
+  <testcase name="searchAllFilesWithVaraiblePercent()" classname="com.ratsur.search.FileIndexerTest" time="0.042"/>
+  <system-out><![CDATA[no matches found
+Searching abc def ghi jkl
+no matches found
+Searching abc def ghi jkl
+filename99.txt:100.0%
+filename98.txt:100.0%
+filename97.txt:100.0%
+filename96.txt:100.0%
+filename95.txt:100.0%
+filename94.txt:100.0%
+filename93.txt:100.0%
+filename92.txt:100.0%
+filename91.txt:100.0%
+filename90.txt:100.0%
+Searching to some to be
+file2.txt:75.0%
+file1.txt:75.0%
+filename99.txt:25.0%
+filename98.txt:25.0%
+filename97.txt:25.0%
+filename96.txt:25.0%
+filename95.txt:25.0%
+filename94.txt:25.0%
+filename93.txt:25.0%
+filename92.txt:25.0%
+Searching to be not
+file2.txt:100.0%
+file1.txt:100.0%
+filename99.txt:33.333336%
+filename98.txt:33.333336%
+filename97.txt:33.333336%
+filename96.txt:33.333336%
+filename95.txt:33.333336%
+filename94.txt:33.333336%
+filename93.txt:33.333336%
+filename92.txt:33.333336%
+no matches found
+Searching to some to be
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
